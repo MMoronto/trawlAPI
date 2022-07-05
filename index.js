@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
     res.send('Welcome to Trawl API');
 });
 
-app.listen(PORT, () => {});
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
