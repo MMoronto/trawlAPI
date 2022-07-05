@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/MMoronto/trawlAPI/issues"
   },
-  "homepage": "https://github.com/MMoronto/trawlAPI#readme"
+  "homepage": "https://github.com/MMoronto/trawlAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "request-promise": "^4.2.6"
+  }
 }
