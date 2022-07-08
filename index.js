@@ -9,7 +9,7 @@ const generateScraperUrl = (apiKey) => `http://api.scraperapi.com?api_key=${api_
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to Trawl API');
+    res.send('Welcome to trawlAPI');
 });
 
 // GET Product Details
